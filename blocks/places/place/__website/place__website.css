@@ -1,0 +1,21 @@
+@import url(./_link/place__website_link.css);
+@import url(./_url-heading/place__website_url-heading.css);
+.place__website {
+  align-self: end;
+  }
+  
+@media screen and (min-width:425px) and (max-width:767px) {
+    .place__website {
+    }
+  }
+  
+@media screen and (max-width: 610px) {
+    .place__website {
+      display: none;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place__website {
+    max-width: 352px;
+  }
+}  
