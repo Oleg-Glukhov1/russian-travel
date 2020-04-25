@@ -7,21 +7,19 @@
     font-weight: 900;
     padding: 6.5% 0 2.5%;
 }
-@media screen and (min-width: 401px) and (max-width:767px){
+@media screen and (min-width: 401px) and (max-width: 900px){
  .lead__title {
-    font-size: 40px;
-    line-height: 44px;
     padding: 15.5% 0 4.0%;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 700px){
     .lead__title {
     font-size: 40px;
     line-height: 44px;
     padding: 14.5% 0 3%;
    }
 }
-@media screen and (min-width:768px) and (max-width: 100px){
+@media screen and (min-width:768px) and (max-width: 1000px){
     .lead__title {
        padding: 8.5% 0 3.5%;
        }

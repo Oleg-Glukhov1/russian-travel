@@ -1,24 +1,30 @@
 @import url(./__image/place__image.css);
 @import url(./__paragraphs/place__paragraphs.css);
-@import url(./__paragraph/place__pargraph.css);
+@import url(./__paragraph/place__paragraph.css);
 @import url(./__title/place__title.css);
 @import url(./__website/place__website.css);
-@import URL(./__paragraph-bottom/place____paragraph-bottom.css);
-@import URL(./__paragraph-top/place__paragraph-top.css);
+@import url(./__link/place__link.css);
+@import url(./__url-heading/place__url-heading.css);
 .place {
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
-    margin-top: 80px;
+    margin: 80px auto 0;
     padding: 0;
     align-items: flex-start;
     justify-self: flex-end;
     gap: 48px 40px;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
       gap: 48px 32px;
+    } 
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place {
+      grid-template-columns: repeat(2, 1fr);
     } 
   }
   
@@ -32,7 +38,7 @@
     .place {
       grid-template-columns: repeat(2, minmax(min-content, max-content));
       grid-template-rows: repeat(2, minmax(min-content, max-content));
-      margin-top: 60px;
+      margin: 60px auto 0;
 
     }
   }
@@ -43,7 +49,7 @@
       grid-template-rows: repeat(3, minmax(min-content, max-content));
       gap: 32px 0;
       justify-items: center;
-      margin-top: 60px;
+      margin: 60px auto 0;
     }
   }
 
