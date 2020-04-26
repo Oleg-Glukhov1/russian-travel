@@ -1,10 +1,11 @@
-@import url(../header/__lang-link/header__lang-link.css);
-@import url(../header/__lang-links/header__lang-links.css);
 @import url(../header/__logo/header__logo.css);
+@import url(../header/__lang-links/header__lang-links.css);
+@import url(../header/__lang-link/header__lang-link.css);
+
 .header {
     display: flex;
     justify-content: space-between;
-    width: calc(100% - 96px);
+    max-width: 1184px;
     margin: 0 auto;
     padding-top: 0.7%;
 }
@@ -14,7 +15,7 @@
         width: calc(100% - 32px);
     }
 } 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .header  {
         padding-top: 2%;
         width: calc(100% - 48px);

@@ -21,4 +21,4 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 * [Ссылка на готовый проект]
-(https://oleg-glukhov1.github.io/russian-travel)
+(https://oleg-glukhov1.github.io/russian-travel/)

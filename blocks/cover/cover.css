@@ -3,13 +3,13 @@
 @import url(../cover/__backround/cover__background.css);
 @import url(../cover/__overlay/cover__overlay.css);
 .cover {
-  width: calc(100% - 96px);
   height: 740px;
   position: relative;
   background: url(../../sprint-3-images/cover-trains.jpg) no-repeat;
   background-size: 100%;
   display: flex;
   margin: 92px auto 0;
+  max-width: 1184px;;
   
 }
 
@@ -22,13 +22,13 @@
 @media screen and (min-width: 400px) and (max-width: 768px) {
     .cover {
         height: 480px;
-        margin-top: 80px;
+        margin-top: 61px;
     }
 } 
 @media screen and (max-width: 399px) {
     .cover {
         height: 214px;
-        margin-top: 45px;
+        margin-top: 48px;
     }
 } 
 

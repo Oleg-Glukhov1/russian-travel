@@ -3,8 +3,8 @@
 @import url(../intro/__title/intro__title.css);
 @import url(../intro/__span/intro__span.css);
 .intro {
-    margin: 0 auto;
-    width: calc(100% - 296px);  
+    margin: 0 auto;  
+    max-width: 984px;
 }
 @media screen and (max-width: 320px){
     .intro {
